@@ -1,0 +1,114 @@
+@media (max-width: 480px) {
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+	margin: 0px;
+	font-family: Poppins, sans-serif;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	height: 7.5vh;
+	color: white;
+	font-size: 6vw;
+
+}
+
+body {
+	background-color: #ffbd59;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 7.5vh;
+}
+
+.logoContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 5vh;
+
+}
+
+.img {
+	width: 25vw;
+	height: auto;
+}
+
+.emailContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 5vh;
+}
+
+.usernameContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 2vh;
+}
+
+.passwordContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 2vh;
+}
+
+.confirmPasswordContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 2vh;
+}
+
+.email, .username, .password, .confirmpassword {
+	width: 70vw;
+	height: 7vh;
+	border-radius: 10vw;
+	border: none;
+	text-indent: 5vw;
+}
+
+.signUpButtonContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 5vh;
+}
+
+button {
+	padding: 0px;
+	border-width: 0px;
+}
+
+.signUpButton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	width: 70vw;
+	height: 7.5vh;
+	border: none;
+	font-size: 4vw;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	height: 7.5vh;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin-bottom: 0px;
+	background-color: black;
+	color: white;
+}
+
+}
