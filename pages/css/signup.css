@@ -22,6 +22,17 @@ header {
 
 }
 
+.backArrow {
+	width: 2vw;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	margin-top: 3vh;
+	margin-left: 2.5vw;
+}
+
 body {
 	background-color: #ffbd59;
 	display: flex;
@@ -76,6 +87,7 @@ body {
 	border-radius: 10vw;
 	border: none;
 	text-indent: 5vw;
+	font-size: 4vw;
 }
 
 .signUpButtonContainer {
