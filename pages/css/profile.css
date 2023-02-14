@@ -1,0 +1,144 @@
+@media (max-width: 480px) {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+* {
+	margin: 0px;
+	font-family: Poppins, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	height: 7.5vh;
+	color: white;
+	font-size: 6vw;
+
+}
+
+.notifBell {
+	width: 7vw;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	margin-top: 2vh;
+	margin-left: 87.5vw;
+}
+
+
+body {
+	background-color: #ffbd59;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 7.5vh;
+}
+
+.pictureContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5vh;
+
+}
+
+.profilePicture {
+	width: 30vw;
+}
+
+.editProfile {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2vh;
+}
+
+.name {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 3vh;
+	font-size: 8vw;
+}
+
+.divider {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dividerIMG {
+	width: 90vw;
+}
+
+.contentContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+
+}
+
+.defaultIMG {
+	width: 25vw;
+	padding-left: 2.5vw;
+	padding-top: 1.5vh;
+	
+}
+
+.infoContainer {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.trackName {
+	padding-left: 5vw;
+	font-size: 6vw;
+}
+
+.artistName {
+	padding-left: 5vw;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	height: 7.5vh;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin-bottom: 0px;
+	background-color: black;
+	color: white;
+}
+
+.homeButton {
+	width: 8.5vw;
+	margin-left: 5vw;
+	opacity: 0.5;
+}
+
+.searchButton, .settingsButton {
+	width: 7.5vw;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	opacity: 0.5;
+}
+
+.profileButton {
+	width: 7.5vw;
+	margin-right: 5vw;
+
+}
+
+}
