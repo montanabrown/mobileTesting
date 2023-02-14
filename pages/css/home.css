@@ -40,4 +40,67 @@ body {
 	margin-bottom: 7.5vh;
 }
 
+.contentContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+
+}
+
+.defaultIMG {
+	width: 25vw;
+	padding-left: 2.5vw;
+	padding-top: 5vw;
+	
+}
+
+.infoContainer {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.trackName {
+	padding-left: 5vw;
+	font-size: 6vw;
+}
+
+.artistName {
+	padding-left: 5vw;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	height: 7.5vh;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin-bottom: 0px;
+	background-color: black;
+	color: white;
+}
+
+.homeButton {
+	width: 8.5vw;
+	margin-left: 5vw;
+}
+
+.searchButton, .settingsButton {
+	width: 7.5vw;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	opacity: 0.5;
+}
+
+.profileButton {
+	width: 7.5vw;
+	margin-right: 5vw;
+	opacity: 0.5;
+
+}
+
 }
