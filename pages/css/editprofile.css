@@ -1,6 +1,6 @@
 @media (max-width: 480px) {
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 
 * {
 	margin: 0px;
@@ -22,6 +22,17 @@ header {
 
 }
 
+.backArrow {
+	width: 2vw;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	margin-top: 3vh;
+	margin-left: 2.5vw;
+}
+
 body {
 	background-color: #ffbd59;
 	display: flex;
@@ -29,31 +40,79 @@ body {
 	margin-bottom: 7.5vh;
 }
 
-.searchBarContainer {
+.pictureContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 5vh;
+	margin-left: 10vw;
+	margin-right: 20vw;
+}
+
+.profilePicture {
+	width: 30vw;
+}
+
+.editPicture {
+	font-size: 5vw;
+
+}
+
+.divider {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-top: 5vh;
 }
 
-.searchBar {
-	width: 70vw;
-	height: 7vh;
-	border-radius: 10vw;
-	border: none;
-	text-indent: 5vw;
-	font-size: 3vw;
+.dividerIMG {
+	width: 90vw;
+	height: 5vh;
 }
 
-.accountContainer, .privacyContainer, .notifsContainer, .securityContainer, .helpContainer, .aboutContainer, .subscriptionContainer {
+.nameContainer, .usernameContainer {
 	display: flex;
-	flex-direction: space-between;
-	margin-left: 10vw;
-	margin-right: 10vw;
+	justify-content: left;
+	align-items: center;
+	margin-bottom: 2.5vh;
 }
 
-.accountButton, .privacyButton, .notifsButton, .securityButton, .helpButton, .aboutButton, .subscriptionButton {
-	padding-top: 5vh;
+.nameHolder, .usernameHolder, .bioHolder, .linksHolder {
+	margin-left: 10vw;
+	font-size: 5vw;
+}
+
+.name {
+	margin-left: 25vw;
+	font-size: 5vw;
+}
+
+.username {
+	margin-left: 15vw;
+	font-size: 5vw;
+}
+
+.bioContanier {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	margin-bottom: 2.5vh;
+}
+
+.bio {
+	margin-left: 35vw;
+	font-size: 5vw;
+}
+
+.linksContainer {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	margin-top: 2.5vh;
+}
+
+.links {
+	margin-left: 12vw;
 	font-size: 5vw;
 }
 
@@ -77,24 +136,16 @@ footer {
 	opacity: 0.5;
 }
 
-.searchButton {
+.searchButton, .settingsButton {
 	width: 7.5vw;
 	margin-left: 5vw;
 	margin-right: 5vw;
 	opacity: 0.5;
-}
-
-.settingsButton {
-	width: 7.5vw;
-	margin-left: 5vw;
-	margin-right: 5vw;
-
 }
 
 .profileButton {
 	width: 7.5vw;
 	margin-right: 5vw;
-	opacity: 0.5;
 
 }
 
